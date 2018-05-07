@@ -3,7 +3,6 @@ df <- read.csv("working.csv")
 
 
 # Some changes to working to get to MLP1.csv
-
 df$log_txcount <- log(df$X.tx, base = exp(1))
 df$pricedelta <- df$Close_Price - df$Open_price
 library(DataCombine)
@@ -32,6 +31,7 @@ names(dflag1)[names(dflag1) == 'High_price-1'] <- 'High_price_lag'
 dflag1 <- dflag1[-1,]
 dflag1$ID <- seq.int(nrow(dflag1))
 
+# Writing the changed dataframe to a file used for subsequent
 write.csv(dflag1, "MLP1.csv")
 
 
