@@ -12,5 +12,5 @@ R file (Project.R):
 Reads in working.csv, does some data preprocessing including creating lag variables and log transformations. Outputs MLP1.csv
 The code also replicates Figure 2 and 3 in the article. 
 
-Python file: 
+Python file (Bitcoin.ipynb): 
 Reads in MLP1.csv and has the code to replicate all calculations presented within text or reported in tables. 
