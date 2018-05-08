@@ -1,4 +1,4 @@
-# MLP-Project
+.# MLP-Project
 MLP Article Assignment
 
 This repository contains files which are for replicating the final assignment for Machine Learning for Policy at Heinz College CMU. 
@@ -15,7 +15,8 @@ Reads in working.csv, does some data preprocessing including creating lag variab
 The code also replicates Figure 2 and 3 in the article. 
 
 **Python file (Bitcoin.ipynb):**
-Reads in MLP1.csv and has the code to replicate all calculations presented within text or reported in tables. 
+Reads in MLP1.csv and has the code to replicate all calculations presented within text or reported in tables and Figure 1 and Figure in the article
 
 **Python file (Dataprocessing.ipynb):**
-Contains most of the processing code from the original datasources, but not cleaned up
+Contains most of the processing code from the original datasources, but not cleaned up.
+
